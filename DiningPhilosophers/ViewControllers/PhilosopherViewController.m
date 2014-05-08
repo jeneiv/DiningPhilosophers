@@ -27,11 +27,6 @@
     [_philosopher removeObserver:self forKeyPath:@"state"];
 }
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-}
-
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     if ([keyPath isEqualToString:@"state"]) {
         NSNumber * newStateNumber = [change objectForKey:NSKeyValueChangeNewKey];

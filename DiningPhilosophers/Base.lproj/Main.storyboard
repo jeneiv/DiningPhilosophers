@@ -89,6 +89,26 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chopstick.png" translatesAutoresizingMaskIntoConstraints="NO" id="p7m-v5-hc8">
+                                <rect key="frame" x="230" y="172" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chopstick.png" translatesAutoresizingMaskIntoConstraints="NO" id="mFJ-ZA-u2Z">
+                                <rect key="frame" x="60" y="172" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chopstick.png" translatesAutoresizingMaskIntoConstraints="NO" id="K1T-M8-f4S">
+                                <rect key="frame" x="20" y="346" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chopstick.png" translatesAutoresizingMaskIntoConstraints="NO" id="32P-C0-OwC">
+                                <rect key="frame" x="270" y="346" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chopstick.png" translatesAutoresizingMaskIntoConstraints="NO" id="QTo-xy-Y3b">
+                                <rect key="frame" x="145" y="420" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.68627450980392157" green="0.75686274509803919" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -263,6 +283,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chopstick.png" width="26" height="30"/>
         <image name="cookie.png" width="30" height="30"/>
         <image name="hourglass.png" width="30" height="30"/>
         <image name="philosopher.png" width="40" height="70"/>
