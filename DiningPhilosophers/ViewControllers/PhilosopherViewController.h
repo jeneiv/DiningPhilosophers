@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhilosopherViewController.h
 //  DiningPhilosophers
 //
 //  Created by Viktor Jenei on 08/05/14.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Philosopher;
+
+@interface PhilosopherViewController : UIViewController
+
+- (void)setPhilosopher:(Philosopher*)aPhilosopher;
 
 @end

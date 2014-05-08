@@ -10,22 +10,20 @@
 
 @class ChopStick;
 
-/*
 typedef NS_ENUM(NSUInteger, PhilosopherState) {
-    PhilosopherStateThinking = 0,
+    PhilosopherStateWaiting = 0,
     PhilosopherStateEating,
-    PhilosopherStateWaiting,
+    PhilosopherStateThinking,
 };
-*/
 
 @interface Philosopher : NSThread {
     ChopStick * _leftChopStick;
     ChopStick * _rightChopStick;
-    // PhilosopherState _state;
 }
 
 - (instancetype)initWithName:(NSString*)aName leftStick:(ChopStick*)aLeftChopStick rightStick:(ChopStick*)aRightChopStick;
 
 @property (nonatomic, readonly) NSString * name;
+@property (assign, nonatomic) PhilosopherState state;
 
 @end

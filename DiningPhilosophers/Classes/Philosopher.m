@@ -36,6 +36,7 @@ NSUInteger const maxThinkingTime = 10;
 }
 
 - (void)pickUpChopSticks {
+    self.state = PhilosopherStateWaiting;
     [self pickUpLeftChopStick];
     [self pickUpRightChopStick];
 }
@@ -49,6 +50,7 @@ NSUInteger const maxThinkingTime = 10;
 }
 
 - (void)eat {
+    self.state = PhilosopherStateEating;
     NSUInteger eatingTime = (arc4random() % (maxEatingTime - 1)) + 1;
     NSLog(@"Philosopher %@ is eating for %d seconds", _name, eatingTime);
     [NSThread sleepForTimeInterval:eatingTime];
@@ -62,7 +64,7 @@ NSUInteger const maxThinkingTime = 10;
 }
 
 - (void)think {
-    // _state = PhilosopherStateThinking;
+    self.state = PhilosopherStateThinking;
     NSUInteger thinkingTime = (arc4random() % (maxThinkingTime - 1)) + 1;
     NSLog(@"Philosopher %@ is thinking for %d seconds", _name, thinkingTime);
     [NSThread sleepForTimeInterval:thinkingTime];

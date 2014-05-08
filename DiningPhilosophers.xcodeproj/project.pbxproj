@@ -14,7 +14,6 @@
 		7580C03F191B71E700043C05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C03E191B71E700043C05 /* main.m */; };
 		7580C043191B71E700043C05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C042191B71E700043C05 /* AppDelegate.m */; };
 		7580C046191B71E700043C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7580C044191B71E700043C05 /* Main.storyboard */; };
-		7580C049191B71E700043C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C048191B71E700043C05 /* ViewController.m */; };
 		7580C04B191B71E700043C05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7580C04A191B71E700043C05 /* Images.xcassets */; };
 		7580C052191B71E700043C05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C051191B71E700043C05 /* XCTest.framework */; };
 		7580C053191B71E700043C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C032191B71E700043C05 /* Foundation.framework */; };
@@ -23,6 +22,18 @@
 		7580C05E191B71E700043C05 /* DiningPhilosophersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C05D191B71E700043C05 /* DiningPhilosophersTests.m */; };
 		7580C06A191B745900043C05 /* ChopStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C069191B745900043C05 /* ChopStick.m */; };
 		7580C06D191B75A600043C05 /* Philosopher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C06C191B75A600043C05 /* Philosopher.m */; };
+		7580C071191B977100043C05 /* DiningTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C070191B977100043C05 /* DiningTableViewController.m */; };
+		75A5B89B191BA212006B8367 /* PhilosopherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A5B89A191BA212006B8367 /* PhilosopherViewController.m */; };
+		75A5B8A6191BA394006B8367 /* chopstick.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B89E191BA394006B8367 /* chopstick.png */; };
+		75A5B8A7191BA394006B8367 /* chopstick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B89F191BA394006B8367 /* chopstick@2x.png */; };
+		75A5B8A8191BA394006B8367 /* cookie.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8A0191BA394006B8367 /* cookie.png */; };
+		75A5B8A9191BA394006B8367 /* cookie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8A1191BA394006B8367 /* cookie@2x.png */; };
+		75A5B8AA191BA394006B8367 /* philosopher.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8A2191BA394006B8367 /* philosopher.png */; };
+		75A5B8AB191BA394006B8367 /* philosopher@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8A3191BA394006B8367 /* philosopher@2x.png */; };
+		75A5B8AC191BA394006B8367 /* thikning_bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8A4191BA394006B8367 /* thikning_bubble.png */; };
+		75A5B8AD191BA394006B8367 /* thikning_bubble@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8A5191BA394006B8367 /* thikning_bubble@2x.png */; };
+		75A5B8B0191BAF6A006B8367 /* hourglass.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8AE191BAF6A006B8367 /* hourglass.png */; };
+		75A5B8B1191BAF6A006B8367 /* hourglass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A5B8AF191BAF6A006B8367 /* hourglass@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +58,6 @@
 		7580C041191B71E700043C05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7580C042191B71E700043C05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7580C045191B71E700043C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7580C047191B71E700043C05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7580C048191B71E700043C05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7580C04A191B71E700043C05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7580C050191B71E700043C05 /* DiningPhilosophersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningPhilosophersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7580C051191B71E700043C05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,6 +68,20 @@
 		7580C069191B745900043C05 /* ChopStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChopStick.m; path = Classes/ChopStick.m; sourceTree = "<group>"; };
 		7580C06B191B75A600043C05 /* Philosopher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Philosopher.h; path = Classes/Philosopher.h; sourceTree = "<group>"; };
 		7580C06C191B75A600043C05 /* Philosopher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Philosopher.m; path = Classes/Philosopher.m; sourceTree = "<group>"; };
+		7580C06F191B977100043C05 /* DiningTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiningTableViewController.h; path = ViewControllers/DiningTableViewController.h; sourceTree = "<group>"; };
+		7580C070191B977100043C05 /* DiningTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiningTableViewController.m; path = ViewControllers/DiningTableViewController.m; sourceTree = "<group>"; };
+		75A5B899191BA212006B8367 /* PhilosopherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhilosopherViewController.h; path = ViewControllers/PhilosopherViewController.h; sourceTree = "<group>"; };
+		75A5B89A191BA212006B8367 /* PhilosopherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhilosopherViewController.m; path = ViewControllers/PhilosopherViewController.m; sourceTree = "<group>"; };
+		75A5B89E191BA394006B8367 /* chopstick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chopstick.png; sourceTree = "<group>"; };
+		75A5B89F191BA394006B8367 /* chopstick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chopstick@2x.png"; sourceTree = "<group>"; };
+		75A5B8A0191BA394006B8367 /* cookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookie.png; sourceTree = "<group>"; };
+		75A5B8A1191BA394006B8367 /* cookie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cookie@2x.png"; sourceTree = "<group>"; };
+		75A5B8A2191BA394006B8367 /* philosopher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = philosopher.png; sourceTree = "<group>"; };
+		75A5B8A3191BA394006B8367 /* philosopher@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "philosopher@2x.png"; sourceTree = "<group>"; };
+		75A5B8A4191BA394006B8367 /* thikning_bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thikning_bubble.png; sourceTree = "<group>"; };
+		75A5B8A5191BA394006B8367 /* thikning_bubble@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thikning_bubble@2x.png"; sourceTree = "<group>"; };
+		75A5B8AE191BAF6A006B8367 /* hourglass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hourglass.png; sourceTree = "<group>"; };
+		75A5B8AF191BAF6A006B8367 /* hourglass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hourglass@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +141,12 @@
 		7580C038191B71E700043C05 /* DiningPhilosophers */ = {
 			isa = PBXGroup;
 			children = (
+				75A5B89C191BA394006B8367 /* Resources */,
+				7580C06E191B974D00043C05 /* ViewControllers */,
 				7580C067191B726200043C05 /* Classes */,
 				7580C041191B71E700043C05 /* AppDelegate.h */,
 				7580C042191B71E700043C05 /* AppDelegate.m */,
 				7580C044191B71E700043C05 /* Main.storyboard */,
-				7580C047191B71E700043C05 /* ViewController.h */,
-				7580C048191B71E700043C05 /* ViewController.m */,
 				7580C04A191B71E700043C05 /* Images.xcassets */,
 				7580C039191B71E700043C05 /* Supporting Files */,
 			);
@@ -168,6 +191,42 @@
 				7580C06C191B75A600043C05 /* Philosopher.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		7580C06E191B974D00043C05 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7580C06F191B977100043C05 /* DiningTableViewController.h */,
+				7580C070191B977100043C05 /* DiningTableViewController.m */,
+				75A5B899191BA212006B8367 /* PhilosopherViewController.h */,
+				75A5B89A191BA212006B8367 /* PhilosopherViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75A5B89C191BA394006B8367 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75A5B89D191BA394006B8367 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75A5B89D191BA394006B8367 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				75A5B8AE191BAF6A006B8367 /* hourglass.png */,
+				75A5B8AF191BAF6A006B8367 /* hourglass@2x.png */,
+				75A5B89E191BA394006B8367 /* chopstick.png */,
+				75A5B89F191BA394006B8367 /* chopstick@2x.png */,
+				75A5B8A0191BA394006B8367 /* cookie.png */,
+				75A5B8A1191BA394006B8367 /* cookie@2x.png */,
+				75A5B8A2191BA394006B8367 /* philosopher.png */,
+				75A5B8A3191BA394006B8367 /* philosopher@2x.png */,
+				75A5B8A4191BA394006B8367 /* thikning_bubble.png */,
+				75A5B8A5191BA394006B8367 /* thikning_bubble@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +305,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A5B8B1191BAF6A006B8367 /* hourglass@2x.png in Resources */,
+				75A5B8A6191BA394006B8367 /* chopstick.png in Resources */,
+				75A5B8AB191BA394006B8367 /* philosopher@2x.png in Resources */,
+				75A5B8A8191BA394006B8367 /* cookie.png in Resources */,
+				75A5B8AC191BA394006B8367 /* thikning_bubble.png in Resources */,
+				75A5B8AD191BA394006B8367 /* thikning_bubble@2x.png in Resources */,
+				75A5B8A9191BA394006B8367 /* cookie@2x.png in Resources */,
 				7580C04B191B71E700043C05 /* Images.xcassets in Resources */,
 				7580C03D191B71E700043C05 /* InfoPlist.strings in Resources */,
+				75A5B8B0191BAF6A006B8367 /* hourglass.png in Resources */,
 				7580C046191B71E700043C05 /* Main.storyboard in Resources */,
+				75A5B8A7191BA394006B8367 /* chopstick@2x.png in Resources */,
+				75A5B8AA191BA394006B8367 /* philosopher.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +336,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7580C049191B71E700043C05 /* ViewController.m in Sources */,
+				75A5B89B191BA212006B8367 /* PhilosopherViewController.m in Sources */,
 				7580C06D191B75A600043C05 /* Philosopher.m in Sources */,
 				7580C043191B71E700043C05 /* AppDelegate.m in Sources */,
+				7580C071191B977100043C05 /* DiningTableViewController.m in Sources */,
 				7580C06A191B745900043C05 /* ChopStick.m in Sources */,
 				7580C03F191B71E700043C05 /* main.m in Sources */,
 			);
@@ -480,6 +550,7 @@
 				7580C063191B71E700043C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7580C064191B71E700043C05 /* Build configuration list for PBXNativeTarget "DiningPhilosophersTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +559,7 @@
 				7580C066191B71E700043C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,36 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "ChopStick.h"
-#import "Philosopher.h"
-
-@interface AppDelegate () {
-    NSArray * _table;
-    NSArray * _chopSticks;
-}
-
-@end
 
 @implementation AppDelegate
 
-- (void)setUpTable {
-    _chopSticks = @[[ChopStick new], [ChopStick new], [ChopStick new], [ChopStick new], [ChopStick new]];
-    _table = @[
-               [[Philosopher alloc] initWithName:@"First" leftStick:_chopSticks[4] rightStick:_chopSticks[0]],
-               [[Philosopher alloc] initWithName:@"Second" leftStick:_chopSticks[0] rightStick:_chopSticks[1]],
-               [[Philosopher alloc] initWithName:@"Third" leftStick:_chopSticks[1] rightStick:_chopSticks[2]],
-               [[Philosopher alloc] initWithName:@"Forth" leftStick:_chopSticks[2] rightStick:_chopSticks[3]],
-               [[Philosopher alloc] initWithName:@"Fifth" leftStick:_chopSticks[3] rightStick:_chopSticks[4]],
-               ];
-    [_table makeObjectsPerformSelector:@selector(start)];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    [self setUpTable];
-    
-    
     // Override point for customization after application launch.
     return YES;
 }
