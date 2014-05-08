@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7580C033191B71E700043C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C032191B71E700043C05 /* Foundation.framework */; };
+		7580C035191B71E700043C05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C034191B71E700043C05 /* CoreGraphics.framework */; };
+		7580C037191B71E700043C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C036191B71E700043C05 /* UIKit.framework */; };
+		7580C03D191B71E700043C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7580C03B191B71E700043C05 /* InfoPlist.strings */; };
+		7580C03F191B71E700043C05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C03E191B71E700043C05 /* main.m */; };
+		7580C043191B71E700043C05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C042191B71E700043C05 /* AppDelegate.m */; };
+		7580C046191B71E700043C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7580C044191B71E700043C05 /* Main.storyboard */; };
+		7580C049191B71E700043C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C048191B71E700043C05 /* ViewController.m */; };
+		7580C04B191B71E700043C05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7580C04A191B71E700043C05 /* Images.xcassets */; };
+		7580C052191B71E700043C05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C051191B71E700043C05 /* XCTest.framework */; };
+		7580C053191B71E700043C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C032191B71E700043C05 /* Foundation.framework */; };
+		7580C054191B71E700043C05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7580C036191B71E700043C05 /* UIKit.framework */; };
+		7580C05C191B71E700043C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7580C05A191B71E700043C05 /* InfoPlist.strings */; };
+		7580C05E191B71E700043C05 /* DiningPhilosophersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C05D191B71E700043C05 /* DiningPhilosophersTests.m */; };
+		7580C06A191B745900043C05 /* ChopStick.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C069191B745900043C05 /* ChopStick.m */; };
+		7580C06D191B75A600043C05 /* Philosopher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7580C06C191B75A600043C05 /* Philosopher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7580C055191B71E700043C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7580C027191B71E600043C05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7580C02E191B71E700043C05;
+			remoteInfo = DiningPhilosophers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7580C02F191B71E700043C05 /* DiningPhilosophers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiningPhilosophers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7580C032191B71E700043C05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7580C034191B71E700043C05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7580C036191B71E700043C05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7580C03A191B71E700043C05 /* DiningPhilosophers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiningPhilosophers-Info.plist"; sourceTree = "<group>"; };
+		7580C03C191B71E700043C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7580C03E191B71E700043C05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7580C040191B71E700043C05 /* DiningPhilosophers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiningPhilosophers-Prefix.pch"; sourceTree = "<group>"; };
+		7580C041191B71E700043C05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7580C042191B71E700043C05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7580C045191B71E700043C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7580C047191B71E700043C05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7580C048191B71E700043C05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7580C04A191B71E700043C05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7580C050191B71E700043C05 /* DiningPhilosophersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiningPhilosophersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7580C051191B71E700043C05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7580C059191B71E700043C05 /* DiningPhilosophersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiningPhilosophersTests-Info.plist"; sourceTree = "<group>"; };
+		7580C05B191B71E700043C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7580C05D191B71E700043C05 /* DiningPhilosophersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiningPhilosophersTests.m; sourceTree = "<group>"; };
+		7580C068191B745900043C05 /* ChopStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChopStick.h; path = Classes/ChopStick.h; sourceTree = "<group>"; };
+		7580C069191B745900043C05 /* ChopStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChopStick.m; path = Classes/ChopStick.m; sourceTree = "<group>"; };
+		7580C06B191B75A600043C05 /* Philosopher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Philosopher.h; path = Classes/Philosopher.h; sourceTree = "<group>"; };
+		7580C06C191B75A600043C05 /* Philosopher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Philosopher.m; path = Classes/Philosopher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7580C02C191B71E700043C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7580C035191B71E700043C05 /* CoreGraphics.framework in Frameworks */,
+				7580C037191B71E700043C05 /* UIKit.framework in Frameworks */,
+				7580C033191B71E700043C05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7580C04D191B71E700043C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7580C052191B71E700043C05 /* XCTest.framework in Frameworks */,
+				7580C054191B71E700043C05 /* UIKit.framework in Frameworks */,
+				7580C053191B71E700043C05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7580C026191B71E600043C05 = {
+			isa = PBXGroup;
+			children = (
+				7580C038191B71E700043C05 /* DiningPhilosophers */,
+				7580C057191B71E700043C05 /* DiningPhilosophersTests */,
+				7580C031191B71E700043C05 /* Frameworks */,
+				7580C030191B71E700043C05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7580C030191B71E700043C05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7580C02F191B71E700043C05 /* DiningPhilosophers.app */,
+				7580C050191B71E700043C05 /* DiningPhilosophersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7580C031191B71E700043C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7580C032191B71E700043C05 /* Foundation.framework */,
+				7580C034191B71E700043C05 /* CoreGraphics.framework */,
+				7580C036191B71E700043C05 /* UIKit.framework */,
+				7580C051191B71E700043C05 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7580C038191B71E700043C05 /* DiningPhilosophers */ = {
+			isa = PBXGroup;
+			children = (
+				7580C067191B726200043C05 /* Classes */,
+				7580C041191B71E700043C05 /* AppDelegate.h */,
+				7580C042191B71E700043C05 /* AppDelegate.m */,
+				7580C044191B71E700043C05 /* Main.storyboard */,
+				7580C047191B71E700043C05 /* ViewController.h */,
+				7580C048191B71E700043C05 /* ViewController.m */,
+				7580C04A191B71E700043C05 /* Images.xcassets */,
+				7580C039191B71E700043C05 /* Supporting Files */,
+			);
+			path = DiningPhilosophers;
+			sourceTree = "<group>";
+		};
+		7580C039191B71E700043C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7580C03A191B71E700043C05 /* DiningPhilosophers-Info.plist */,
+				7580C03B191B71E700043C05 /* InfoPlist.strings */,
+				7580C03E191B71E700043C05 /* main.m */,
+				7580C040191B71E700043C05 /* DiningPhilosophers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7580C057191B71E700043C05 /* DiningPhilosophersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7580C05D191B71E700043C05 /* DiningPhilosophersTests.m */,
+				7580C058191B71E700043C05 /* Supporting Files */,
+			);
+			path = DiningPhilosophersTests;
+			sourceTree = "<group>";
+		};
+		7580C058191B71E700043C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7580C059191B71E700043C05 /* DiningPhilosophersTests-Info.plist */,
+				7580C05A191B71E700043C05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7580C067191B726200043C05 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7580C068191B745900043C05 /* ChopStick.h */,
+				7580C069191B745900043C05 /* ChopStick.m */,
+				7580C06B191B75A600043C05 /* Philosopher.h */,
+				7580C06C191B75A600043C05 /* Philosopher.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7580C02E191B71E700043C05 /* DiningPhilosophers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7580C061191B71E700043C05 /* Build configuration list for PBXNativeTarget "DiningPhilosophers" */;
+			buildPhases = (
+				7580C02B191B71E700043C05 /* Sources */,
+				7580C02C191B71E700043C05 /* Frameworks */,
+				7580C02D191B71E700043C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiningPhilosophers;
+			productName = DiningPhilosophers;
+			productReference = 7580C02F191B71E700043C05 /* DiningPhilosophers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7580C04F191B71E700043C05 /* DiningPhilosophersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7580C064191B71E700043C05 /* Build configuration list for PBXNativeTarget "DiningPhilosophersTests" */;
+			buildPhases = (
+				7580C04C191B71E700043C05 /* Sources */,
+				7580C04D191B71E700043C05 /* Frameworks */,
+				7580C04E191B71E700043C05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7580C056191B71E700043C05 /* PBXTargetDependency */,
+			);
+			name = DiningPhilosophersTests;
+			productName = DiningPhilosophersTests;
+			productReference = 7580C050191B71E700043C05 /* DiningPhilosophersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7580C027191B71E600043C05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Viktor Jenei";
+				TargetAttributes = {
+					7580C04F191B71E700043C05 = {
+						TestTargetID = 7580C02E191B71E700043C05;
+					};
+				};
+			};
+			buildConfigurationList = 7580C02A191B71E600043C05 /* Build configuration list for PBXProject "DiningPhilosophers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7580C026191B71E600043C05;
+			productRefGroup = 7580C030191B71E700043C05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7580C02E191B71E700043C05 /* DiningPhilosophers */,
+				7580C04F191B71E700043C05 /* DiningPhilosophersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7580C02D191B71E700043C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7580C04B191B71E700043C05 /* Images.xcassets in Resources */,
+				7580C03D191B71E700043C05 /* InfoPlist.strings in Resources */,
+				7580C046191B71E700043C05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7580C04E191B71E700043C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7580C05C191B71E700043C05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7580C02B191B71E700043C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7580C049191B71E700043C05 /* ViewController.m in Sources */,
+				7580C06D191B75A600043C05 /* Philosopher.m in Sources */,
+				7580C043191B71E700043C05 /* AppDelegate.m in Sources */,
+				7580C06A191B745900043C05 /* ChopStick.m in Sources */,
+				7580C03F191B71E700043C05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7580C04C191B71E700043C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7580C05E191B71E700043C05 /* DiningPhilosophersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7580C056191B71E700043C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7580C02E191B71E700043C05 /* DiningPhilosophers */;
+			targetProxy = 7580C055191B71E700043C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7580C03B191B71E700043C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7580C03C191B71E700043C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7580C044191B71E700043C05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7580C045191B71E700043C05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7580C05A191B71E700043C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7580C05B191B71E700043C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7580C05F191B71E700043C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7580C060191B71E700043C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7580C062191B71E700043C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiningPhilosophers/DiningPhilosophers-Prefix.pch";
+				INFOPLIST_FILE = "DiningPhilosophers/DiningPhilosophers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7580C063191B71E700043C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiningPhilosophers/DiningPhilosophers-Prefix.pch";
+				INFOPLIST_FILE = "DiningPhilosophers/DiningPhilosophers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7580C065191B71E700043C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiningPhilosophers.app/DiningPhilosophers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiningPhilosophers/DiningPhilosophers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DiningPhilosophersTests/DiningPhilosophersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7580C066191B71E700043C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiningPhilosophers.app/DiningPhilosophers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiningPhilosophers/DiningPhilosophers-Prefix.pch";
+				INFOPLIST_FILE = "DiningPhilosophersTests/DiningPhilosophersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7580C02A191B71E600043C05 /* Build configuration list for PBXProject "DiningPhilosophers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7580C05F191B71E700043C05 /* Debug */,
+				7580C060191B71E700043C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7580C061191B71E700043C05 /* Build configuration list for PBXNativeTarget "DiningPhilosophers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7580C062191B71E700043C05 /* Debug */,
+				7580C063191B71E700043C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7580C064191B71E700043C05 /* Build configuration list for PBXNativeTarget "DiningPhilosophersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7580C065191B71E700043C05 /* Debug */,
+				7580C066191B71E700043C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7580C027191B71E600043C05 /* Project object */;
+}
